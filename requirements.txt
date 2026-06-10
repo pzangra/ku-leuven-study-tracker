@@ -1,0 +1,8 @@
+requests
+icalendar
+python-dotenv
+pandas
+matplotlib
+seaborn
+calplot
+flask
