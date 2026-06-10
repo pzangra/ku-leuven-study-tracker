@@ -60,6 +60,10 @@ html_template = f"""<!DOCTYPE html>
         .calendar-grid {{ display: grid; grid-template-columns: repeat(7, 1fr); gap: 5px; text-align: center; }}
         .calendar-header {{ font-weight: bold; padding: 5px; background: #eaeef2; border-radius: 4px; }}
         .calendar-day {{ border: 1px solid #d0d7de; border-radius: 4px; padding: 15px 5px; background: #fff; position: relative; }}
+        .calendar-day.level-1 {{ background-color: #9be9a8; }}
+        .calendar-day.level-2 {{ background-color: #40c463; }}
+        .calendar-day.level-3 {{ background-color: #30a14e; color: white; }}
+        .calendar-day.level-4 {{ background-color: #216e39; color: white; }}
         .calendar-day .day-num {{ font-size: 12px; color: #57606a; position: absolute; top: 2px; left: 4px; }}
         .calendar-day .day-hours {{ font-size: 14px; font-weight: bold; margin-top: 5px; }}
 
