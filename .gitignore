@@ -1,0 +1,14 @@
+# Secrets
+.env
+
+# Data & Outputs
+*.db
+*.png
+*.log
+*.ics
+*.png
+
+# Python fluff
+__pycache__/
+*.pyc
+test_connection.py
