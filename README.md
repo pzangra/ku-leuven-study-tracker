@@ -46,7 +46,7 @@ Fill in at minimum:
 
 All paths (`DB_PATH`, `TRACKER_DIR`, `DASHBOARD_PATH`, `HEATMAP_PATH`) default to the repo's working directory if left unset, but it's recommended to set them to absolute paths.
 
-> ⚠️ The `ICS_URL` contains a personal access token. Never commit `.env` or share this link.
+> The `ICS_URL` contains a personal access token. Never commit `.env` or share this link.
 
 **4. Run the pipeline**
 
